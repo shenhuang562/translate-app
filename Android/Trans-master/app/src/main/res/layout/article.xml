@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 母版开始 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 源语言 -->
+        <TextView
+            android:id="@+id/sourceLanguageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="源语言:" />
+
+        <TextView
+            android:id="@+id/dataTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据1:" />
+
+        <!-- 目标语言 -->
+        <TextView
+            android:id="@+id/targetLanguageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="目标语言:" />
+
+        <!-- 对应的数据 -->
+        <TextView
+            android:id="@+id/dataTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据2:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+    <!-- 母版结束 -->
+
+    <!-- 右上角按钮 -->
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="x"
+        android:tag="0"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_a"
+        android:title="Trans" />
+
+    <item
+        android:id="@+id/navigation_b"
+        android:title="History" />
+
+    <item
+        android:id="@+id/navigation_c"
+        android:title="Setting" />
+</menu>
